@@ -49,5 +49,19 @@
 </li>
 </ul>
 <p>Una vez hecho esto, ya tendríamos nuestro repositorio listo para empezar a trabajar.</p>
-<h2 id="creación-de-ramas-y-pull-requests">2. Creación de Ramas y Pull Requests</h2>
+<h2 id="creación-de-ramas-y-pull-request">2. Creación de Ramas y Pull Request</h2>
+<p>Una vez está creado el repositorio, vamos a crear dos <strong>ramas</strong>, una para cada archivo.</p>
+<p>La primera <strong>rama</strong> es para la parte de la listas de amigos, y se <strong>crea</strong> usando el siguiente <strong>comando</strong>:<br>
+<img src="https://i.imgur.com/h5yCHj9.png" alt="Captura del comando para crear una rama"><br>
+Y ahora para <strong>entrar en la rama</strong>, usamos este comando:<br>
+<img src="https://i.imgur.com/8I2dXni.png" alt="Captura del comando para entrar en una rama"><br>
+Una vez estamos en la rama. podemos empezar a hacer los <strong>cambios</strong> en el <strong>archivo</strong>. En este caso, voy a poner los <strong>nombres</strong> y los <em>supuestos</em> <strong>números</strong> de teléfono de 3 amigos:<br>
+<img src="https://i.imgur.com/JTPLO5v.png" alt="Captura de los datos introducidos en el archivo"></p>
+<p>Una vez hechos los cambios los guardamos usando el comando <code>git add lista_amigos.txt</code> y hacemos el <a href="https://github.com/guillermopereez/ejercicio_github_guillermo_y_karen/pull/1/commits/dd329f637f9dd886a9883cdb4ed538560081a25d">commit</a> <code>git commit -m "texto del commit"</code> .</p>
+<p>Ahora, para poder <strong>subir</strong> este cambio desde nuestro repositorio local a GitHub, usamos el siguiente comando:<br>
+<img src="https://i.imgur.com/bJTjA6o.png" alt="Captura del comando para subir los cambios"></p>
+<h3 id="pull-request">Pull Request</h3>
+<p>Ahora, al hacer el <em>push</em> hacia el repositorio remoto, en GitHub saltará un aviso de un <strong>Pull Request</strong>:<br>
+<img src="https://i.imgur.com/M9QxPDw.png" alt="Captura del Pull request"></p>
+<p>Aquí, los demás <strong>colaboradores</strong> de mi repositorio podrán <strong>votar</strong> si el cambio que estoy proponiendo les parece bien y podrán <strong>comentar</strong> al respecto.</p>
 
