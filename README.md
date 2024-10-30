@@ -1,4 +1,4 @@
-Documentación ejercicio GitHub
+Documentación ejercicio GitHu
 Esta es la documentación paso por paso del ejercicio de **creación y gestión** de un **repositorio** en **GitHub**.
 
 ## 1. Crear el repositorio en GitHub
